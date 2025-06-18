@@ -14,6 +14,9 @@ module TaxCloud #:nodoc:
     attr_accessor :zip5
     # 4-digit Zip Code.
     attr_accessor :zip4
+    # Residential delivery indicator
+    # Obtained this code from this fix PR https://github.com/txcrb/tax_cloud/pull/57
+    attr_accessor :rdi
 
     # Create a new address.
     # === Parameters
