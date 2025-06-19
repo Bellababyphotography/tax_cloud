@@ -15,6 +15,9 @@ module TaxCloud #:nodoc:
     attr_accessor :zip4
     # TaxCloud client
     attr_reader :client
+    # Residential delivery indicatorAdd commentMore actions
+    # Obtained this code from this fix PR https://github.com/txcrb/tax_cloud/pull/57
+    attr_accessor :rdi
 
     # Create a new address.
     # === Parameters
